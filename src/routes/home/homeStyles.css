@@ -1,0 +1,11 @@
+.home {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.allTasksContainer {
+  height: 100%;
+  background-color: #1a0647;
+}
