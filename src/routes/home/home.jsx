@@ -22,7 +22,7 @@ function Home() {
 
   return (
     <section className="home">
-      {currentUser ? (
+      {!currentUser ? (
         <div className="signIn">
           <button onClick={logGoogleUser}>SignInWithGoogle</button>
         </div>
