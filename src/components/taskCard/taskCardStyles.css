@@ -1,0 +1,54 @@
+/* TASK CARD*/
+
+.taskCard {
+  border-radius: 25px;
+  width: 260px;
+  overflow: hidden;
+  background-color: var(--main--color);
+}
+.taskInfo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: var(--rem-1);
+}
+.taskNumber {
+  font-weight: bold;
+  font-size: var(--rem-2);
+}
+
+.taskImage {
+  height: 150px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.taskOptions {
+  display: flex;
+  justify-content: space-between;
+}
+.taskStatus {
+  width: 100%;
+  padding: var(--rem-1);
+  font-weight: bold;
+  font-size: var(--rem-1);
+  background-color: var(--progress-aprobadoAlex);
+  display: flex;
+  justify-content: center;
+}
+.taskButtons {
+  display: flex;
+}
+.taskButton {
+  font-size: var(--rem-1);
+  color: var(--color--ligth);
+  font-weight: bold;
+  background-color: unset;
+  border: none;
+  padding: 10px;
+}
+.taskButton:hover {
+  color: var(--secondary--color);
+  text-decoration: underline;
+  background-color: var(--color--ligth);
+}
